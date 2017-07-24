@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_84"
+               BlueprintIdentifier = "OBJ_93"
                BuildableName = "Spectre.framework"
                BlueprintName = "Spectre"
                ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_98"
+               BlueprintIdentifier = "OBJ_107"
                BuildableName = "Commander.framework"
                BlueprintName = "Commander"
                ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_115"
+               BlueprintIdentifier = "OBJ_124"
                BuildableName = "Yaml.framework"
                BlueprintName = "Yaml"
                ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_127"
+               BlueprintIdentifier = "OBJ_136"
                BuildableName = "PathKit.framework"
                BlueprintName = "PathKit"
                ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_136"
+               BlueprintIdentifier = "OBJ_145"
                BuildableName = "RAML.framework"
                BlueprintName = "RAML"
                ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
@@ -84,7 +84,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_184"
+               BlueprintIdentifier = "OBJ_194"
+               BuildableName = "SwiftyTextTable.framework"
+               BlueprintName = "SwiftyTextTable"
+               ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_201"
                BuildableName = "RAML-Swift-CLI"
                BlueprintName = "RAML-Swift-CLI"
                ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
@@ -117,7 +131,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_84"
+            BlueprintIdentifier = "OBJ_93"
             BuildableName = "Spectre.framework"
             BlueprintName = "Spectre"
             ReferencedContainer = "container:RAML-Swift-CLI.xcodeproj">
