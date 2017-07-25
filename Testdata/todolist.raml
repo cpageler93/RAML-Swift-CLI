@@ -6,13 +6,14 @@ documentation:
      ToDo List API
 mediaType: application/json
 types:
+  PrimaryKey:
+    (primaryKey): 
+    (autoUUID): 
+    type: string
+    required: true
   TodoItem:
     properties:
-      id:
-        (primaryKey): 
-        (autoUUID): 
-        required: true
-        type: string
+      id: PrimaryKey
       title: string
       createdAt: datetime
       updatedAt: datetime
