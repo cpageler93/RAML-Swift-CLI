@@ -17,23 +17,30 @@ public extension CommandGroup {
                 return
             }
             
-            guard let raml = try? RAML(file: absolutePath.string) else {
+            guard let raml = try? RAML(file: absolutePath.string).applyDefaults() else {
                 print("Failed parsing RAML File at path \(absolutePath)")
                 return
             }
             
-            let methodColumn        = TextTableColumn(header: "Method")
-            let pathColumn          = TextTableColumn(header: "Path")
             let displayNameColumn   = TextTableColumn(header: "Display Name")
-            var table               = TextTable(columns: [methodColumn, pathColumn, displayNameColumn])
+            let pathColumn          = TextTableColumn(header: "Path")
+            let methodColumn        = TextTableColumn(header: "Method")
+            var table               = TextTable(columns: [displayNameColumn, pathColumn, methodColumn])
             
             raml.enumerateResource { resource, _, _ in
                 
-                let method = "GET"
-                let absolutePath = raml.absolutePathForResource(resource)
-                let displayName = resource.displayName ?? ""
-                
-                table.addRow(values: [method, absolutePath, displayName])
+                // Row for each Method in Resoruce
+                for (index, method) in (resource.methods ?? []).enumerated() {
+                    
+                    let displayName = index == 0 ? (resource.displayName ?? "")             : ""
+                    let path        = index == 0 ? raml.absolutePathForResource(resource)   : ""
+                    
+                    table.addRow(values: [
+                        displayName,
+                        path,
+                        method.type.rawValue.uppercased()
+                    ])
+                }
             }
             
             let tableString = table.render()

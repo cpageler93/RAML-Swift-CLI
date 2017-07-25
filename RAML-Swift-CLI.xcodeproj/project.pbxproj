@@ -87,77 +87,77 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		59F08CEA1F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB39181F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_93;
 			remoteInfo = Spectre;
 		};
-		59F08CEB1F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB39191F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_93;
 			remoteInfo = Spectre;
 		};
-		59F08CEC1F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB391A1F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_124;
 			remoteInfo = Yaml;
 		};
-		59F08CED1F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB391B1F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_93;
 			remoteInfo = Spectre;
 		};
-		59F08CEE1F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB391C1F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_136;
 			remoteInfo = PathKit;
 		};
-		59F08CEF1F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB391D1F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_93;
 			remoteInfo = Spectre;
 		};
-		59F08CF01F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB391E1F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_107;
 			remoteInfo = Commander;
 		};
-		59F08CF11F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB391F1F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_124;
 			remoteInfo = Yaml;
 		};
-		59F08CF21F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB39201F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_136;
 			remoteInfo = PathKit;
 		};
-		59F08CF31F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB39211F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_145;
 			remoteInfo = RAML;
 		};
-		59F08CF41F26373F00219384 /* PBXContainerItemProxy */ = {
+		59CB39221F273F58002AADE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -319,7 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_15 /* SwiftyTextTable 0.5.0 */,
-				OBJ_18 /* RAML 0.3.0 */,
+				OBJ_18 /* RAML 0.4.0 */,
 				OBJ_56 /* PathKit 0.8.0 */,
 				OBJ_58 /* Yaml 3.4.0 */,
 				OBJ_66 /* Commander 0.6.1 */,
@@ -345,7 +345,7 @@
 			path = ".build/checkouts/SwiftyTextTable.git--8973856955285341421/Source/SwiftyTextTable";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_18 /* RAML 0.3.0 */ = {
+		OBJ_18 /* RAML 0.4.0 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_19 /* Annotation.swift */,
@@ -386,7 +386,7 @@
 				OBJ_54 /* URIParameter.swift */,
 				OBJ_55 /* YamlExtenstions.swift */,
 			);
-			name = "RAML 0.3.0";
+			name = "RAML 0.4.0";
 			path = ".build/checkouts/RAML-Swift--6410183450303932041/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
@@ -771,57 +771,57 @@
 		OBJ_123 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_93 /* Spectre */;
-			targetProxy = 59F08CEA1F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB39181F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_144 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_93 /* Spectre */;
-			targetProxy = 59F08CEB1F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB39191F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_191 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_124 /* Yaml */;
-			targetProxy = 59F08CEC1F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB391A1F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_192 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_93 /* Spectre */;
-			targetProxy = 59F08CED1F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB391B1F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_193 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_136 /* PathKit */;
-			targetProxy = 59F08CEE1F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB391C1F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_217 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_93 /* Spectre */;
-			targetProxy = 59F08CEF1F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB391D1F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_218 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_107 /* Commander */;
-			targetProxy = 59F08CF01F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB391E1F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_219 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_124 /* Yaml */;
-			targetProxy = 59F08CF11F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB391F1F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_220 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_136 /* PathKit */;
-			targetProxy = 59F08CF21F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB39201F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_221 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_145 /* RAML */;
-			targetProxy = 59F08CF31F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB39211F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 		OBJ_222 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_194 /* SwiftyTextTable */;
-			targetProxy = 59F08CF41F26373F00219384 /* PBXContainerItemProxy */;
+			targetProxy = 59CB39221F273F58002AADE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

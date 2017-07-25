@@ -13,6 +13,9 @@ types:
         (autoUUID): 
         required: true
         type: string
+      title: string
+      createdAt: datetime
+      updatedAt: datetime
 /todoItems:
   displayName: ToDo List Items
   get:
@@ -24,6 +27,8 @@ types:
     responses:
       201:
         body: TodoItem
-  delete:
-    responses:
-      204:
+  /{id}:
+    displayName: Single ToDo List Item
+    get:
+    patch:
+    delete:
